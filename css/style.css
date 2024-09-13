@@ -151,6 +151,10 @@ textarea {
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
+  .btn--container {
+    margin-bottom: 10px; }
+  /*.btn--container:last-child {
+    margin-bottom: 0;}*/
   .btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
