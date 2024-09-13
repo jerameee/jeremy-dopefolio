@@ -482,9 +482,13 @@ textarea {
     color: #777; }
 
 .project-details__links {
-  margin: 0 0; }
+  margin: 0 0;
+  margin-bottom: 3rem;
+  display: flex;
+}
   .project-details__links-btn {
-    margin-right: 2rem; }
+    margin-right: 2rem;
+    padding: 1rem 2rem;}
     @media only screen and (max-width: 37.5em) {
       .project-details__links-btn {
         margin-right: 0;
@@ -496,6 +500,14 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .project-details__links-btn:last-child {
           margin: 0; } }
+
+    .project-details__demo-btn {
+      display: flex;
+      align-items: center;
+      margin: 0 0;
+      margin-bottom: 3rem;
+      padding: 1rem 2rem;
+}
 
 .header {
   position: fixed;
